@@ -3,3 +3,6 @@ kind: Kustomization
 resources:
 - deployment.yaml
 - service.yaml
+images:
+- name: brxvn/backend-devops-pj1
+  newTag: 4fdf5ae
