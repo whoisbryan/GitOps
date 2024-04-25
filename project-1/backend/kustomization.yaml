@@ -5,4 +5,4 @@ resources:
 - service.yaml
 images:
 - name: brxvn/backend-devops-pj1
-  newTag: 4fdf5ae
+  newTag: 6573d20
