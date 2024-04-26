@@ -4,4 +4,4 @@ resources:
 - deployment.yaml
 images:
 - name: brxvn/avatares-devops-pj1-frontend
-  newTag: af71fe2
+  newTag: 8edf49d
