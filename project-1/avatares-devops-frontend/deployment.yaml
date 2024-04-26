@@ -18,3 +18,14 @@ spec:
             - containerPort: 5173
               name: http
               protocol: TCP
+          env:
+            - name: VITE_HOST
+              valueFrom:
+                configMapKeyRef:
+                  name: avatares-devops-pj1-frontend
+                  key: VITE_HOST
+            - name: VITE_PORT
+              valueFrom:
+                configMapKeyRef:
+                  name: avatares-devops-pj1-frontend
+                  key: VITE_PORT

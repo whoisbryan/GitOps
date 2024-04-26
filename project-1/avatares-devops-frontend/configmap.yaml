@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: avatares-devops-pj1-frontend
+data:
+  VITE_HOST: "0.0.0.0"
+  VITE_PORT: "5173"
