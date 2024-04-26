@@ -6,4 +6,4 @@ resources:
 - configmap.yaml
 images:
 - name: brxvn/avatares-devops-pj1-backend
-  newTag: e1fe314
+  newTag: 1551d0d
