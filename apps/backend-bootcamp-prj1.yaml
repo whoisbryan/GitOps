@@ -9,7 +9,7 @@ spec:
   destination:
     namespace: bootcamp-prj-1
     server: https://kubernetes.default.svc
-  project: default
+  project:  bry-devops-bootcamp
   source:
     path: project-1/backend
     repoURL: https://github.com/whoisbryan/GitOps.git
