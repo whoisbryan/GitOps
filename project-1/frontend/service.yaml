@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: frontend-bootcamp-prj-1-svc
+  labels:
+    app: frontend-bootcamp-prj-1
+spec:
+  ports:
+    - name: http
+      port: 80
+      targetPort: 5173
+  selector:
+    app: frontend-bootcamp-prj-1
+  type: ClusterIP
