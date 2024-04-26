@@ -5,4 +5,4 @@ resources:
 - service.yaml
 images:
 - name: brxvn/avatares-devops-pj1-backend
-  newTag: f7f82d8
+  newTag: e1fe314
