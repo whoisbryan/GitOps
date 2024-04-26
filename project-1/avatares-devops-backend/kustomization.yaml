@@ -3,6 +3,7 @@ kind: Kustomization
 resources:
 - deployment.yaml
 - service.yaml
+- configmap.yaml
 images:
 - name: brxvn/avatares-devops-pj1-backend
   newTag: e1fe314
