@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: frontend-bootcamp-prj-1
+  name: avatares-devops-pj1-backend
   namespace: argocd
   finalizers:
   - resources-finalizer.argocd.argoproj.io
@@ -11,7 +11,7 @@ spec:
     server: https://kubernetes.default.svc
   project:  bry-devops-bootcamp
   source:
-    path: project-1/frontend
+    path: project-1/avatares-devops-backend
     repoURL: https://github.com/whoisbryan/GitOps.git
     targetRevision: main
   syncPolicy:

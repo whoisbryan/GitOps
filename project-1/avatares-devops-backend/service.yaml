@@ -1,14 +1,14 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: backend-bootcamp-prj-1-svc
+  name: avatares-devops-pj1-backend-svc
   labels:
-    app: backend-bootcamp-prj-1
+    app: avatares-devops-pj1-backend
 spec:
   ports:
     - name: http
       port: 80
       targetPort: 5000
   selector:
-    app: backend-bootcamp-prj-1
+    app: avatares-devops-pj1-backend
   type: ClusterIP

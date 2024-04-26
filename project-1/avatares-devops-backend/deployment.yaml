@@ -1,19 +1,19 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: backend-bootcamp-prj-1
+  name: avatares-devops-pj1-backend
 spec:
   selector:
     matchLabels:
-      app: backend-bootcamp-prj-1
+      app: avatares-devops-pj1-backend
   template:
     metadata:
       labels:
-        app: backend-bootcamp-prj-1
+        app: avatares-devops-pj1-backend
     spec:
       containers:
-        - name: backend-bootcamp-prj-1
-          image: brxvn/backend-devops-pj1
+        - name: avatares-devops-pj1-backend
+          image: brxvn/avatares-devops-pj1-backend
           ports:
             - containerPort: 5000
               name: http
