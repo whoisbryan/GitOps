@@ -18,3 +18,14 @@ spec:
             - containerPort: 5000
               name: http
               protocol: TCP
+          env:
+            - name: FLASK_APP
+              valueFrom:
+                configMapKeyRef:
+                  name: avatares-devops-pj1-backend
+                  key: FLASK_APP
+            - name: FLASK_ENV
+              valueFrom:
+                configMapKeyRef:
+                  name: avatares-devops-pj1-backend
+                  key: FLASK_ENV
